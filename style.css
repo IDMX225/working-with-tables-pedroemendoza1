@@ -1,3 +1,55 @@
 body {
-  background-color: aliceblue;
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #3be2e2;
+}
+
+/* Table Styling */
+.table-container {
+  overflow-x: auto;
+  margin-top: 30px;
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px #d40404;
+}
+
+caption {
+  caption-side: top;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #00e6e6;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #444;
+}
+
+th {
+  background-color: #222;
+  color: #00e6e6;
+}
+
+
+
+tr:hover {
+  background-color: #333;
+}
+
+
+td {
+  transition: background-color 0.3s ease;
 }
